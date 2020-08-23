@@ -1,0 +1,1828 @@
+{
+  "0": {
+    "Yellowstone National Park is in the United States of America.": [
+      [
+        "Yellowstone National Park is [BLANK].",
+        "in the United States of America",
+        "PP"
+      ]
+    ],
+    "It became the first National Park in 1872.": [
+      [
+        "It became the first National Park [BLANK].",
+        "in 1872",
+        "PP"
+      ]
+    ],
+    "There are geysers and hot springs at Yellowstone.": [
+      [
+        "There are geysers and hot springs [BLANK].",
+        "at Yellowstone",
+        "PP"
+      ]
+    ],
+    "There are also many animals like elk, bison, sheep, grizzly bears, black bears, moose, coyotes, and more at Yellowstone.": [
+      [
+        "There are [BLANK] many animals like elk, bison, sheep, grizzly bears, black bears, moose, coyotes, and more at Yellowstone.",
+        "also",
+        "ADV"
+      ],
+      [
+        "There are also many animals like elk, bison, sheep, grizzly bears, black bears, moose, coyotes, and more at Yellowstone.",
+        "like elk , bison , sheep , grizzly bears , black bears , moose , coyotes , and more at Yellowstone",
+        "PP"
+      ]
+    ],
+    "More than 3 million people visit Yellowstone each year.": [],
+    "During the winter, visitors can ski, go snowmobiling or join tours there.": [
+      [
+        "During the winter, visitors can ski, go snowmobiling or join tours [BLANK].",
+        "there",
+        "ADV"
+      ],
+      [
+        "[BLANK], visitors can ski, go snowmobiling or join tours there.",
+        "During the winter",
+        "PP"
+      ]
+    ],
+    "Visitors can see steam and water from the geysers.": [
+      [
+        "Visitors can see steam and water [BLANK].",
+        "from the geysers",
+        "PP"
+      ]
+    ],
+    "During other seasons, visitors can go horse-riding, boating, fishing or take nature trails and tours.": [
+      [
+        "[BLANK], visitors can go horse-riding, boating, fishing or take nature trails and tours.",
+        "During other seasons",
+        "PP"
+      ]
+    ],
+    "Most visitors want to see Old Faithful, a very predictable geyser at Yellowstone.": [
+      [
+        "Most visitors want to see Old Faithful, a [BLANK] predictable geyser at Yellowstone.",
+        "very",
+        "ADV"
+      ],
+      [
+        "Most visitors want to see Old Faithful, a very predictable geyser [BLANK].",
+        "at Yellowstone",
+        "PP"
+      ]
+    ],
+    "Visitors can check a schedule to see the precise time that Old Faithful is going to erupt.": [],
+    "There are many other geysers and bubbling springs in the area.": [
+      [
+        "There are many other geysers and bubbling springs [BLANK].",
+        "in the area",
+        "PP"
+      ]
+    ],
+    "Great Fountain Geyser erupts every 11 hours up to a height of 67 metres.": [
+      [
+        "Great Fountain Geyser erupts every 11 hours [BLANK].",
+        "up to a height of 67 metres",
+        "PP"
+      ]
+    ],
+    "Excelsior Geyser produces 4,000 gallons of boiling water each minute!": [
+      [
+        "Excelsior Geyser produces 4,000 gallons [BLANK] each minute!",
+        "of boiling water",
+        "PP"
+      ]
+    ],
+    "Boiling water is 100 degrees Celsius, or 212 degrees Fahrenheit – that’s very hot!": [
+      [
+        "Boiling water is 100 degrees Celsius, or 212 degrees Fahrenheit – that’s [BLANK] hot!",
+        "very",
+        "ADV"
+      ]
+    ],
+    "People also like to see the Grand Prismatic Spring.": [
+      [
+        "People [BLANK] like to see the Grand Prismatic Spring.",
+        "also",
+        "ADV"
+      ]
+    ],
+    "It is the largest hot spring in the park.": [
+      [
+        "It is the largest hot spring [BLANK].",
+        "in the park",
+        "PP"
+      ]
+    ],
+    "It has many beautiful colors, which are caused by bacteria in the water.": [
+      [
+        "It has many beautiful colors, which are caused [BLANK].",
+        "by bacteria in the water",
+        "PP"
+      ]
+    ],
+    "These are forms of life that have only one cell.": [
+      [
+        "These are forms of life that have [BLANK] one cell.",
+        "only",
+        "ADV"
+      ],
+      [
+        "These are forms [BLANK] that have only one cell.",
+        "of life",
+        "PP"
+      ]
+    ],
+    "Different bacteria live in different water temperatures.": [
+      [
+        "Different bacteria live [BLANK].",
+        "in different water temperatures",
+        "PP"
+      ]
+    ],
+    "Visiting Yellowstone National Park can be a week–long vacation or more.": [],
+    "It is beautiful, and there are activities for everyone.": [
+      [
+        "It is beautiful, and there are activities [BLANK].",
+        "for everyone",
+        "PP"
+      ]
+    ]
+  },
+  "1": {
+    "“Mom, the lobster is delicious,” I said.": [],
+    "“Save some for your brother.": [
+      [
+        "“Save some [BLANK].",
+        "for your brother",
+        "PP"
+      ]
+    ],
+    "He should be coming home soon.": [
+      [
+        "He should be coming [BLANK] soon.",
+        "home",
+        "ADV"
+      ],
+      [
+        "He should be coming home [BLANK].",
+        "soon",
+        "ADV"
+      ]
+    ],
+    "It’s already   half past seven,” said my mother.": [
+      [
+        "It’s already   half past seven,” said my mother.",
+        "already half past seven",
+        "ADV"
+      ]
+    ],
+    "“Yes, Sebastian, listen to your mother.": [
+      [
+        "“Yes, Sebastian, listen [BLANK].",
+        "to your mother",
+        "PP"
+      ]
+    ],
+    "Lobsters are a rare treat for our family.": [
+      [
+        "Lobsters are a rare treat [BLANK].",
+        "for our family",
+        "PP"
+      ]
+    ],
+    "My boss has been very kind in giving us this treat,” added my father.": [
+      [
+        "My boss has been [BLANK] kind in giving us this treat,” added my father.",
+        "very",
+        "ADV"
+      ],
+      [
+        "My boss has been very k[BLANK]d [BLANK] giv[BLANK]g us this treat,” added my father.",
+        "in",
+        "ADV"
+      ],
+      [
+        "My boss has been very kind [BLANK],” added my father.",
+        "in giving us this treat",
+        "PP"
+      ]
+    ],
+    "What my father said was very true.": [
+      [
+        "What my father said was [BLANK] true.",
+        "very",
+        "ADV"
+      ]
+    ],
+    "Life was hard for us.": [
+      [
+        "Life was hard [BLANK].",
+        "for us",
+        "PP"
+      ]
+    ],
+    "My father worked as a foreman at a construction site.": [
+      [
+        "My father worked [BLANK] at a construction site.",
+        "as a foreman",
+        "PP"
+      ],
+      [
+        "My father worked as a foreman [BLANK].",
+        "at a construction site",
+        "PP"
+      ]
+    ],
+    "He was paid only when he went to work.": [
+      [
+        "He was paid [BLANK] when he went to work.",
+        "only",
+        "ADV"
+      ],
+      [
+        "He was paid only when he went [BLANK].",
+        "to work",
+        "PP"
+      ]
+    ],
+    "He had to work under the hot sun or in heavy rain when the weather was bad.": [
+      [
+        "He had to work [BLANK] when the weather was bad.",
+        "under the hot sun or in heavy rain",
+        "PP"
+      ]
+    ],
+    "The doorbell rang.": [],
+    "I opened the door and my younger brother, Tim, charged in excitedly.": [
+      [
+        "I opened the door and my younger brother, Tim, charged [BLANK] excitedly.",
+        "in",
+        "ADV"
+      ],
+      [
+        "I opened the door and my younger brother, Tim, charged in [BLANK].",
+        "excitedly",
+        "ADV"
+      ]
+    ],
+    "In his hands was a letter which he waved wildly.": [
+      [
+        "In his hands was a letter which he waved [BLANK].",
+        "wildly",
+        "ADV"
+      ],
+      [
+        "[BLANK] was a letter which he waved wildly.",
+        "In his hands",
+        "PP"
+      ]
+    ],
+    "He looked over the moon.": [
+      [
+        "He looked [BLANK].",
+        "over the moon",
+        "PP"
+      ]
+    ],
+    "“Mom, Dad, come see what I’ve to show you!” shouted Tim.": [],
+    "We huddled around him and waited anxiously for what seemed to be good news.": [
+      [
+        "We huddled around him and waited [BLANK] for what seemed to be good news.",
+        "anxiously",
+        "ADV"
+      ],
+      [
+        "We huddled [BLANK] and waited anxiously for what seemed to be good news.",
+        "around him",
+        "PP"
+      ],
+      [
+        "We huddled around him and waited anxiously [BLANK].",
+        "for what seemed to be good news",
+        "PP"
+      ]
+    ],
+    "“I’ve got a scholarship to study in St Peter’s college.": [
+      [
+        "“I’ve got a scholarship to study in St Peter’s college.",
+        "in St Peter ’s college",
+        "PP"
+      ]
+    ],
+    "The two-year tuition fees are fully paid for, plus they are giving me $3000 for books and stationery,” rattled Tim in one breath.": [
+      [
+        "The two-year tuition fees are [BLANK] paid for, plus they are giving me $3000 for books and stationery,” rattled Tim in one breath.",
+        "fully",
+        "ADV"
+      ],
+      [
+        "The two-year tuition fees are fully paid [BLANK], plus they are giving me $3000 [BLANK] books and stationery,” rattled Tim in one breath.",
+        "for",
+        "PP"
+      ],
+      [
+        "The two-year tuition fees are fully paid for, plus they are giving me $3000 [BLANK],” rattled Tim in one breath.",
+        "for books and stationery",
+        "PP"
+      ],
+      [
+        "The two-year tuition fees are fully paid for, plus they are giving me $3000 for books and stationery,” rattled Tim [BLANK].",
+        "in one breath",
+        "PP"
+      ]
+    ],
+    "We were overjoyed.": [],
+    "My mother was so happy, tears rolled down her cheeks.": [
+      [
+        "My mother was [BLANK] happy, tears rolled down her cheeks.",
+        "so",
+        "ADV"
+      ]
+    ],
+    "Even my father, who looked stern most of the time, hugged Tim.": [
+      [
+        "[BLANK] my father, who looked stern most of the time, hugged Tim.",
+        "Even",
+        "ADV"
+      ],
+      [
+        "Even my father, who looked stern most [BLANK], hugged Tim.",
+        "of the time",
+        "PP"
+      ]
+    ],
+    "We were so proud of my brother.": [
+      [
+        "We were [BLANK] proud of my brother.",
+        "so",
+        "ADV"
+      ],
+      [
+        "We were so proud [BLANK].",
+        "of my brother",
+        "PP"
+      ]
+    ]
+  },
+  "2": {
+    "Fossils of plants and ancient dinosaurs found in Antarctica show the continent once had a warm climate.": [
+      [
+        "Fossils of plants and ancient dinosaurs found in Antarctica show the continent [BLANK] had a warm climate.",
+        "once",
+        "ADV"
+      ],
+      [
+        "Fossils [BLANK] show the continent once had a warm climate.",
+        "of plants and ancient dinosaurs found in Antarctica",
+        "PP"
+      ]
+    ],
+    "Trees and plants grew there before the land drifted towards the frozen south pole.": [
+      [
+        "Trees and plants grew [BLANK] before the land drifted towards the frozen south pole.",
+        "there",
+        "ADV"
+      ],
+      [
+        "Trees and plants grew there before the land drifted [BLANK].",
+        "towards the frozen south pole",
+        "PP"
+      ]
+    ],
+    "Now, Antarctica is the world’s windiest and coldest region, with ice 5 kilometres thick in parts.": [
+      [
+        "[BLANK], Antarctica is the world’s windiest and coldest region, with ice 5 kilometres thick in parts.",
+        "Now",
+        "ADV"
+      ],
+      [
+        "Now, Antarctica is the world’s windiest and coldest region, with ice 5 kilometres thick [BLANK].",
+        "in parts",
+        "PP"
+      ]
+    ],
+    "Some recorded wind speeds are over 300km/h, stronger than most cyclones.": [
+      [
+        "Some recorded wind speeds are over 300km/h, stronger [BLANK].",
+        "than most cyclones",
+        "PP"
+      ]
+    ],
+    "Thousands of large seals and penguins feed in the oceans around Antarctica and there is no land life on the continent.": [
+      [
+        "Thousands [BLANK] feed in the oceans around Antarctica and there is no land life on the continent.",
+        "of large seals and penguins",
+        "PP"
+      ],
+      [
+        "Thousands of large seals and penguins feed [BLANK] and there is no land life on the continent.",
+        "in the oceans around Antarctica",
+        "PP"
+      ],
+      [
+        "Thousands of large seals and penguins feed in the oceans around Antarctica and there is no land life [BLANK].",
+        "on the continent",
+        "PP"
+      ]
+    ],
+    "We can see only tiny insects and not one green tree.": [
+      [
+        "We can see [BLANK] tiny insects and not one green tree.",
+        "only",
+        "ADV"
+      ],
+      [
+        "We can see only tiny insects and [BLANK] one green tree.",
+        "not",
+        "ADV"
+      ]
+    ],
+    "Only scientists and other workers live in this huge area of land.": [
+      [
+        "[BLANK] scientists and other workers live in this huge area of land.",
+        "Only",
+        "ADV"
+      ],
+      [
+        "Only scientists and other workers live [BLANK].",
+        "in this huge area of land",
+        "PP"
+      ]
+    ],
+    "Each year, thousands of tourists visit the warmer parts in planes or ships.": [
+      [
+        "Each year, thousands [BLANK] visit the warmer parts in planes or ships.",
+        "of tourists",
+        "PP"
+      ],
+      [
+        "Each year, thousands of tourists visit the warmer parts [BLANK].",
+        "in planes or ships",
+        "PP"
+      ]
+    ],
+    "We hope they do not spoil this beautiful part of the world.": [
+      [
+        "We hope they do [BLANK] spoil this beautiful part of the world.",
+        "not",
+        "ADV"
+      ],
+      [
+        "We hope they do not spoil this beautiful part [BLANK].",
+        "of the world",
+        "PP"
+      ]
+    ]
+  },
+  "3": {
+    "The chiming of the old grandfather clock echoed through the quiet house.": [
+      [
+        "The chiming [BLANK] echoed through the quiet house.",
+        "of the old grandfather clock",
+        "PP"
+      ],
+      [
+        "The chiming of the old grandfather clock echoed [BLANK].",
+        "through the quiet house",
+        "PP"
+      ]
+    ],
+    "Shirley began to stir from her sleep as the sixth and last chime of the clock rang in her ears.": [
+      [
+        "Shirley began to stir [BLANK] as the sixth and last chime of the clock rang in her ears.",
+        "from her sleep",
+        "PP"
+      ],
+      [
+        "Shirley began to stir from her sleep as the sixth and last chime [BLANK] rang in her ears.",
+        "of the clock",
+        "PP"
+      ],
+      [
+        "Shirley began to stir from her sleep as the sixth and last chime of the clock rang [BLANK].",
+        "in her ears",
+        "PP"
+      ]
+    ],
+    "She quickly changed into her weekend clothes before going downstairs for something to eat.": [
+      [
+        "She [BLANK] changed into her weekend clothes before going downstairs for something to eat.",
+        "quickly",
+        "ADV"
+      ],
+      [
+        "She quickly changed into her weekend clothes before going [BLANK] for something to eat.",
+        "downstairs",
+        "ADV"
+      ],
+      [
+        "She quickly changed [BLANK] before going downstairs for something to eat.",
+        "into her weekend clothes",
+        "PP"
+      ],
+      [
+        "She quickly changed into her weekend clothes [BLANK].",
+        "before going downstairs for something to eat",
+        "PP"
+      ]
+    ],
+    "Shirley was hungry and it did not take her long to devour a plate of cereal and three pieces of toast, followed by a cup of warm milk.": [
+      [
+        "Shirley was hungry and it did [BLANK] take her long to devour a plate of cereal and three pieces of toast, followed by a cup of warm milk.",
+        "not",
+        "ADV"
+      ],
+      [
+        "Shirley was hungry and it did not take her [BLANK] to devour a plate of cereal and three pieces of toast, followed by a cup of warm milk.",
+        "long",
+        "ADV"
+      ],
+      [
+        "Shirley was hungry and it did not take her long to devour a plate [BLANK] and three pieces of toast, followed by a cup of warm milk.",
+        "of cereal",
+        "PP"
+      ],
+      [
+        "Shirley was hungry and it did not take her long to devour a plate of cereal and three pieces [BLANK], followed by a cup of warm milk.",
+        "of toast",
+        "PP"
+      ],
+      [
+        "Shirley was hungry and it did not take her long to devour a plate of cereal and three pieces of toast, followed [BLANK].",
+        "by a cup of warm milk",
+        "PP"
+      ]
+    ],
+    "It was time to check the stable to see if old Sputnik had given birth to a new foal.": [
+      [
+        "It was time to check the stable to see if old Sputnik had given birth [BLANK].",
+        "to a new foal",
+        "PP"
+      ]
+    ],
+    "Five years ago, Sputnik had been a champion racehorse, winning seven races from only a dozen starts before a leg injury forced her to retire from the racetrack.": [
+      [
+        "[BLANK], Sputnik had been a champion racehorse, winning seven races from only a dozen starts before a leg injury forced her to retire from the racetrack.",
+        "Five years ago",
+        "ADV"
+      ],
+      [
+        "Five years ago, Sputnik had been a champion racehorse, winning seven races from [BLANK] a dozen starts before a leg injury forced her to retire from the racetrack.",
+        "only",
+        "ADV"
+      ],
+      [
+        "Five years ago, Sputnik had been a champion racehorse, winning seven races [BLANK] before a leg injury forced her to retire from the racetrack.",
+        "from only a dozen starts",
+        "PP"
+      ],
+      [
+        "Five years ago, Sputnik had been a champion racehorse, winning seven races from only a dozen starts before a leg injury forced her to retire [BLANK].",
+        "from the racetrack",
+        "PP"
+      ]
+    ],
+    "As Shirley made her way from the house to the sheds, she played a game of hopscotch with the puddles of rainwater that were in her path.": [
+      [
+        "As Shirley made her way [BLANK] to the sheds, she played a game of hopscotch with the puddles of rainwater that were in her path.",
+        "from the house",
+        "PP"
+      ],
+      [
+        "As Shirley made her way from the house [BLANK], she played a game of hopscotch with the puddles of rainwater that were in her path.",
+        "to the sheds",
+        "PP"
+      ],
+      [
+        "As Shirley made her way from the house to the sheds, she played a game [BLANK] with the puddles of rainwater that were in her path.",
+        "of hopscotch",
+        "PP"
+      ],
+      [
+        "As Shirley made her way from the house to the sheds, she played a game of hopscotch [BLANK].",
+        "with the puddles of rainwater that were in her path",
+        "PP"
+      ]
+    ],
+    "Soon, she entered the stables where Sputnik was locked away.": [
+      [
+        "[BLANK], she entered the stables where Sputnik was locked away.",
+        "Soon",
+        "ADV"
+      ],
+      [
+        "Soon, she entered the stables where Sputnik was locked [BLANK].",
+        "away",
+        "ADV"
+      ]
+    ],
+    "There, on a bed of hay, lay a lovely baby filly, just two hours old.": [
+      [
+        "[BLANK], on a bed of hay, lay a lovely baby filly, just two hours old.",
+        "There",
+        "ADV"
+      ],
+      [
+        "There, on a bed of hay, lay a lovely baby [BLANK], just two hours old.",
+        "filly",
+        "ADV"
+      ],
+      [
+        "There, on a bed of hay, lay a lovely baby filly, [BLANK] two hours old.",
+        "just",
+        "ADV"
+      ],
+      [
+        "There, [BLANK], lay a lovely baby filly, just two hours old.",
+        "on a bed of hay",
+        "PP"
+      ]
+    ],
+    "Above her and standing proudly on guard was the grey Sputnik.": [
+      [
+        "Above her and standing [BLANK] on guard was the grey Sputnik.",
+        "proudly",
+        "ADV"
+      ],
+      [
+        "[BLANK] was the grey Sputnik.",
+        "Above her and standing proudly on guard",
+        "PP"
+      ]
+    ],
+    "Shirley jumped for joy before spinning around and charging back to the house to tell the others the good news.": [
+      [
+        "Shirley jumped for joy before spinning [BLANK] and charging back to the house to tell the others the good news.",
+        "around",
+        "ADV"
+      ],
+      [
+        "Shirley jumped for joy before spinning around and charging [BLANK] to the house to tell the others the good news.",
+        "back",
+        "ADV"
+      ],
+      [
+        "Shirley jumped [BLANK] before spinning around and charging back to the house to tell the others the good news.",
+        "for joy",
+        "PP"
+      ],
+      [
+        "Shirley jumped for joy [BLANK].",
+        "before spinning around and charging back to the house to tell the others the good news",
+        "PP"
+      ]
+    ],
+    "She wiped her feet carefully on the doormat before going down the hallway that led to the kitchen.": [
+      [
+        "She wiped her feet [BLANK] on the doormat before going down the hallway that led to the kitchen.",
+        "carefully",
+        "ADV"
+      ],
+      [
+        "She wiped her feet carefully [BLANK] before going down the hallway that led to the kitchen.",
+        "on the doormat",
+        "PP"
+      ],
+      [
+        "She wiped her feet carefully on the doormat [BLANK].",
+        "before going down the hallway that led to the kitchen",
+        "PP"
+      ]
+    ],
+    "Mother looked up from the kitchen table at Shirley’s happy face.": [
+      [
+        "Mother looked up [BLANK] at Shirley’s happy face.",
+        "from the kitchen table",
+        "PP"
+      ],
+      [
+        "Mother looked up from the kitchen table at Shirley’s happy face.",
+        "at Shirley ’s happy face",
+        "PP"
+      ]
+    ],
+    "“Well, tell us, Shirley, is it a filly or a colt?” she asked.": [],
+    "“It’s a filly, the same colour as her mum,” replied an excited Shirley.": [
+      [
+        "“It’s a filly, the same colour [BLANK],” replied an excited Shirley.",
+        "as her mum",
+        "PP"
+      ]
+    ],
+    "Before long, Shirley was off to the study room where all her homework was done.": [
+      [
+        "Before [BLANK], Shirley was off to the study room where all her homework was done.",
+        "long",
+        "ADV"
+      ],
+      [
+        "Before long, Shirley was [BLANK].",
+        "off to the study room where all her homework was done",
+        "ADV"
+      ],
+      [
+        "[BLANK], Shirley was off to the study room where all her homework was done.",
+        "Before long",
+        "PP"
+      ],
+      [
+        "Before long, Shirley was off [BLANK].",
+        "to the study room where all her homework was done",
+        "PP"
+      ]
+    ],
+    "Taking her diary from the bookshelf, she wrote ‘Born on the tenth day of the tenth month, a little filly with wobbly legs – I think I’ll call her ‘Legs Go’.": [
+      [
+        "Taking her diary [BLANK], she wrote ‘Born on the tenth day of the tenth month, a little filly with wobbly legs – I think I’ll call her ‘Legs Go’.",
+        "from the bookshelf",
+        "PP"
+      ],
+      [
+        "Taking her diary from the bookshelf, she wrote ‘Born [BLANK], a little filly with wobbly legs – I think I’ll call her ‘Legs Go’.",
+        "on the tenth day of the tenth month",
+        "PP"
+      ],
+      [
+        "Taking her diary from the bookshelf, she wrote ‘Born on the tenth day of the tenth month, a little filly [BLANK] – I think I’ll call her ‘Legs Go’.",
+        "with wobbly legs",
+        "PP"
+      ]
+    ]
+  },
+  "4": {
+    "In many countries, cars on the roads cause problems for people.": [
+      [
+        "[BLANK], cars on the roads cause problems for people.",
+        "In many countries",
+        "PP"
+      ],
+      [
+        "In many countries, cars [BLANK] cause problems for people.",
+        "on the roads",
+        "PP"
+      ],
+      [
+        "In many countries, cars on the roads cause problems [BLANK].",
+        "for people",
+        "PP"
+      ]
+    ],
+    "Thousands of pedestrians and drivers are killed in road accidents each year.": [
+      [
+        "Thousands [BLANK] are killed in road accidents each year.",
+        "of pedestrians and drivers",
+        "PP"
+      ],
+      [
+        "Thousands of pedestrians and drivers are killed [BLANK] each year.",
+        "in road accidents",
+        "PP"
+      ]
+    ],
+    "Car exhausts also pour out dangerous fumes, containing lead into the air we breathe.": [
+      [
+        "Car exhausts [BLANK] pour out dangerous fumes, containing lead into the air we breathe.",
+        "also",
+        "ADV"
+      ],
+      [
+        "Car exhausts also pour out dangerous fumes, containing lead [BLANK].",
+        "into the air we breathe",
+        "PP"
+      ]
+    ],
+    "Lead is used in petrol to prevent the wearing away of parts inside the engine.": [
+      [
+        "Lead is used in petrol to prevent the wearing [BLANK] of parts inside the engine.",
+        "away",
+        "ADV"
+      ],
+      [
+        "Lead is used [BLANK] to prevent the wearing away of parts inside the engine.",
+        "in petrol",
+        "PP"
+      ],
+      [
+        "Lead is used in petrol to prevent the wearing away [BLANK].",
+        "of parts inside the engine",
+        "PP"
+      ]
+    ],
+    "New cars use unleaded petrol.": [],
+    "This is generally safe for people to use.": [
+      [
+        "This is [BLANK] safe for people to use.",
+        "generally",
+        "ADV"
+      ]
+    ],
+    "However, some doctors believe a chemical called benzene can be dangerous to our health.": [
+      [
+        "[BLANK], some doctors believe a chemical called benzene can be dangerous to our health.",
+        "However",
+        "ADV"
+      ],
+      [
+        "However, some doctors believe a chemical called benzene can be dangerous [BLANK].",
+        "to our health",
+        "PP"
+      ]
+    ],
+    "It is produced when unleaded petrol is used in cars that are not suitable for unleaded fuel.": [
+      [
+        "It is produced when unleaded petrol is used in cars that are [BLANK] suitable for unleaded fuel.",
+        "not",
+        "ADV"
+      ],
+      [
+        "It is produced when unleaded petrol is used [BLANK].",
+        "in cars that are not suitable for unleaded fuel",
+        "PP"
+      ]
+    ],
+    "At certain times of the day, traffic jams are a problem on our main roads and governments have to think of ways to prevent them.": [
+      [
+        "[BLANK], traffic jams are a problem on our main roads and governments have to think of ways to prevent them.",
+        "At certain times of the day",
+        "PP"
+      ],
+      [
+        "At certain times of the day, traffic jams are a problem [BLANK] and governments have to think of ways to prevent them.",
+        "on our main roads",
+        "PP"
+      ],
+      [
+        "At certain times of the day, traffic jams are a problem on our main roads and governments have to think [BLANK].",
+        "of ways to prevent them",
+        "PP"
+      ]
+    ],
+    "One way is to ask drivers to leave their cars at home and use public transport such as buses and trains.": [
+      [
+        "One way is to ask drivers to leave their cars [BLANK] and use public transport such as buses and trains.",
+        "at home",
+        "PP"
+      ],
+      [
+        "One way is to ask drivers to leave their cars at home and use public transport [BLANK].",
+        "such as buses and trains",
+        "PP"
+      ]
+    ],
+    "The government can consider rewarding these people for helping to reduce the number of cars on the roads.": [
+      [
+        "The government can consider rewarding these people [BLANK].",
+        "for helping to reduce the number of cars on the roads",
+        "PP"
+      ]
+    ],
+    "It has been proven effective for most countries.": [
+      [
+        "It has been proven effective [BLANK].",
+        "for most countries",
+        "PP"
+      ]
+    ]
+  },
+  "5": {
+    "Dear Cousin Mary, How are you?": [],
+    "My father and I were just discussing about earthquakes for my school project last week.": [
+      [
+        "My father and I were [BLANK] discussing about earthquakes for my school project last week.",
+        "just",
+        "ADV"
+      ],
+      [
+        "My father and I were just discussing [BLANK] for my school project last week.",
+        "about earthquakes",
+        "PP"
+      ],
+      [
+        "My father and I were just discussing about earthquakes [BLANK] last week.",
+        "for my school project",
+        "PP"
+      ]
+    ],
+    "I found out from the Internet that the largest earthquake happened in Chile in May 1960.": [
+      [
+        "I found out [BLANK] that the largest earthquake happened in Chile in May 1960.",
+        "from the Internet",
+        "PP"
+      ],
+      [
+        "I found out from the Internet that the largest earthquake happened [BLANK] in May 1960.",
+        "in Chile",
+        "PP"
+      ],
+      [
+        "I found out from the Internet that the largest earthquake happened in Chile [BLANK].",
+        "in May 1960",
+        "PP"
+      ]
+    ],
+    "Also, an earthquake that happened in 1556 in China killed the most number of people.": [
+      [
+        "[BLANK], an earthquake that happened in 1556 in China killed the most number of people.",
+        "Also",
+        "ADV"
+      ],
+      [
+        "Also, an earthquake that happened [BLANK] in China killed the most number of people.",
+        "in 1556",
+        "PP"
+      ],
+      [
+        "Also, an earthquake that happened in 1556 [BLANK] killed the most number of people.",
+        "in China",
+        "PP"
+      ],
+      [
+        "Also, an earthquake that happened in 1556 in China killed the most number [BLANK].",
+        "of people",
+        "PP"
+      ]
+    ],
+    "Then last night, I heard about the earthquake in Lombok, Indonesia on the news.": [
+      [
+        "[BLANK] last night, I heard about the earthquake in Lombok, Indonesia on the news.",
+        "Then",
+        "ADV"
+      ],
+      [
+        "Then last night, I heard about the earthquake in Lombok, Indonesia on the news.",
+        "about the earthquake in Lombok , Indonesia on the news",
+        "PP"
+      ]
+    ],
+    "I read on the newspaper that many buildings gave way and thousands lost their homes.": [
+      [
+        "I read [BLANK] that many buildings gave way and thousands lost their homes.",
+        "on the newspaper",
+        "PP"
+      ]
+    ],
+    "Luckily, there is no tsunami this time.": [
+      [
+        "[BLANK], there is no tsunami this time.",
+        "Luckily",
+        "ADV"
+      ]
+    ],
+    "I was also relieved to hear that the area you lived in only experienced some slight tremors.": [
+      [
+        "I was [BLANK] relieved to hear that the area you lived in only experienced some slight tremors.",
+        "also",
+        "ADV"
+      ],
+      [
+        "I was also relieved to hear that the area you lived in [BLANK] experienced some slight tremors.",
+        "only",
+        "ADV"
+      ],
+      [
+        "I was also relieved to hear that the area you lived [BLANK] only experienced some slight tremors.",
+        "in",
+        "PP"
+      ]
+    ],
+    "I got more interested and concerned, so I continued searching on the Internet.": [
+      [
+        "I got more interested and concerned, so I continued searching [BLANK].",
+        "on the Internet",
+        "PP"
+      ]
+    ],
+    "I realised some earthquakes are so small that machines cannot pick up on them, thus, we cannot feel them too.": [
+      [
+        "I realised [BLANK]me earthquakes are [BLANK] small that machines cannot pick up on them, thus, we cannot feel them too.",
+        "so",
+        "ADV"
+      ],
+      [
+        "I realised some earthquakes are so small that machines can[BLANK] pick up on them, thus, we can[BLANK] feel them too.",
+        "not",
+        "ADV"
+      ],
+      [
+        "I realised some earthquakes are so small that machines cannot pick up on them, [BLANK], we cannot feel them too.",
+        "thus",
+        "ADV"
+      ],
+      [
+        "I realised some earthquakes are so small that machines can[BLANK] pick up on them, thus, we can[BLANK] feel them too.",
+        "not",
+        "ADV"
+      ],
+      [
+        "I realised some earthquakes are so small that machines cannot pick up on them, thus, we cannot feel them [BLANK].",
+        "too",
+        "ADV"
+      ],
+      [
+        "I realised some earthquakes are so small that machines cannot pick up [BLANK], thus, we cannot feel them too.",
+        "on them",
+        "PP"
+      ]
+    ],
+    "I also found out that Indonesia sits on the Pacific “Ring of Fire” where many earthquakes and volcanic eruptions occur.": [
+      [
+        "I [BLANK] found out that Indonesia sits on the Pacific “Ring of Fire” where many earthquakes and volcanic eruptions occur.",
+        "also",
+        "ADV"
+      ],
+      [
+        "I also found out that Indonesia sits on the Pacific “Ring of Fire” where many earthquakes and volcanic eruptions occur.",
+        "on the Pacific “ Ring of Fire ” where many earthquakes and volcanic eruptions occur",
+        "PP"
+      ]
+    ],
+    "Some earthquakes happened deep in the sea and are not noticed by people on land.": [
+      [
+        "Some earthquakes happened [BLANK] in the sea and are not noticed by people on land.",
+        "deep",
+        "ADV"
+      ],
+      [
+        "Some earthquakes happened deep in the sea and are [BLANK] [BLANK]iced by people on land.",
+        "not",
+        "ADV"
+      ],
+      [
+        "Some earthquakes happened [BLANK] and are not noticed by people on land.",
+        "deep in the sea",
+        "PP"
+      ],
+      [
+        "Some earthquakes happened deep in the sea and are not noticed [BLANK].",
+        "by people on land",
+        "PP"
+      ]
+    ],
+    "Most earthquakes happen 80 kilometres or less below the Earth’s surface.": [],
+    "However, some are too far below the surface to be felt.": [
+      [
+        "[BLANK], some are too far below the surface to be felt.",
+        "However",
+        "ADV"
+      ],
+      [
+        "However, some are [BLANK] below the surface to be felt.",
+        "too far",
+        "ADV"
+      ],
+      [
+        "However, some are [BLANK] to be felt.",
+        "too far below the surface",
+        "PP"
+      ]
+    ],
+    "With new and better technology, I expect scientists to invent a machine to predict earthquakes one day to help everyone.": [
+      [
+        "[BLANK], I expect scientists to invent a machine to predict earthquakes one day to help everyone.",
+        "With new and better technology",
+        "PP"
+      ]
+    ],
+    "I hope you and your family in Indonesia will stay safe and well.": [
+      [
+        "I hope you and your family in Indonesia will stay safe and [BLANK].",
+        "well",
+        "ADV"
+      ],
+      [
+        "I hope you and your family [BLANK] will stay safe and well.",
+        "in Indonesia",
+        "PP"
+      ]
+    ],
+    "Take care and write soon!": [
+      [
+        "Take care and write [BLANK]!",
+        "soon",
+        "ADV"
+      ]
+    ],
+    "Cheers, Cousin Eric": []
+  },
+  "6": {
+    "6 April 2018 Dear Diary, Last week, our school told us to prepare three presents for the ‘Friendship Day’ celebrations.": [
+      [
+        "6 April 2018 Dear Diary, Last week, our school told us to prepare three presents for the ‘Friendship Day’ celebrations.",
+        "for the ‘ Friendship Day ’ celebrations",
+        "PP"
+      ]
+    ],
+    "These were to be given to our good friends.": [
+      [
+        "These were to be given [BLANK].",
+        "to our good friends",
+        "PP"
+      ]
+    ],
+    "I was very happy and expected many gifts from my friends as I was very friendly and popular in my class.": [
+      [
+        "I was [BLANK] happy and expected many gifts from my friends as I was [BLANK] friendly and popular in my class.",
+        "very",
+        "ADV"
+      ],
+      [
+        "I was [BLANK] happy and expected many gifts from my friends as I was [BLANK] friendly and popular in my class.",
+        "very",
+        "ADV"
+      ],
+      [
+        "I was very happy and expected many gifts [BLANK] as I was very friendly and popular in my class.",
+        "from my friends",
+        "PP"
+      ],
+      [
+        "I was very happy and expected many gifts from my friends as I was very friendly and popular [BLANK].",
+        "in my class",
+        "PP"
+      ]
+    ],
+    "Today, when all the presents were distributed among my classmates, I received ten presents!": [
+      [
+        "Today, when all the presents were distributed [BLANK], I received ten presents!",
+        "among my classmates",
+        "PP"
+      ]
+    ],
+    "I was overjoyed.": [],
+    "Just as I was going to unwrap my presents, I noticed a classmate who was empty-handed.": [
+      [
+        "[BLANK] as I was going to unwrap my presents, I noticed a classmate who was empty-handed.",
+        "Just",
+        "ADV"
+      ]
+    ],
+    "It was Julian, the boy who had joined our school two weeks ago.": [
+      [
+        "It was Julian, the boy who had joined our school [BLANK].",
+        "two weeks ago",
+        "ADV"
+      ]
+    ],
+    "He sat silently in a corner of the classroom, looking out of the window miserably.": [
+      [
+        "He sat [BLANK] in a corner of the classroom, looking out of the window miserably.",
+        "silently",
+        "ADV"
+      ],
+      [
+        "He sat silently in a corner of the classroom, looking out of the window [BLANK].",
+        "miserably",
+        "ADV"
+      ],
+      [
+        "He sat silently [BLANK], looking out of the window miserably.",
+        "in a corner of the classroom",
+        "PP"
+      ],
+      [
+        "He sat silently in a corner of the classroom, looking [BLANK] miserably.",
+        "out of the window",
+        "PP"
+      ]
+    ],
+    "I realised that no one had remembered to give him a gift.": [],
+    "Fortunately, my mother had advised me to prepare an extra present.": [
+      [
+        "[BLANK], my mother had advised me to prepare an extra present.",
+        "Fortunately",
+        "ADV"
+      ]
+    ],
+    "I walked to Julian and gave it to him.": [
+      [
+        "I walked [BLANK] and gave it to him.",
+        "to Julian",
+        "PP"
+      ],
+      [
+        "I walked to Julian and gave it [BLANK].",
+        "to him",
+        "PP"
+      ]
+    ],
+    "At first, he looked surprised, but soon a wide grin slowly spread across his face.": [
+      [
+        "[BLANK], he looked surprised, but soon a wide grin slowly spread across his face.",
+        "At first",
+        "ADV"
+      ],
+      [
+        "At first, he looked surprised, but [BLANK] a wide grin slowly spread across his face.",
+        "soon",
+        "ADV"
+      ],
+      [
+        "At first, he looked surprised, but soon a wide grin [BLANK] spread across his face.",
+        "slowly",
+        "ADV"
+      ],
+      [
+        "At first, he looked surprised, but soon a wide grin slowly spread [BLANK].",
+        "across his face",
+        "PP"
+      ]
+    ],
+    "He thanked me gratefully.": [
+      [
+        "He thanked me [BLANK].",
+        "gratefully",
+        "ADV"
+      ]
+    ],
+    "Then he apologised as he had not prepared a gift for anyone.": [
+      [
+        "[BLANK] he apologised as he had not prepared a gift for anyone.",
+        "Then",
+        "ADV"
+      ],
+      [
+        "Then he apologised as he had [BLANK] prepared a gift for anyone.",
+        "not",
+        "ADV"
+      ],
+      [
+        "Then he apologised as he had not prepared a gift [BLANK].",
+        "for anyone",
+        "PP"
+      ]
+    ],
+    "I told him that he could give me the gift of his time by playing with me during recess.": [
+      [
+        "I told him that he could give me the gift [BLANK] by playing with me during recess.",
+        "of his time",
+        "PP"
+      ],
+      [
+        "I told him that he could give me the gift of his time [BLANK].",
+        "by playing with me during recess",
+        "PP"
+      ]
+    ],
+    "By the end of the day, I had made a new friend.": [
+      [
+        "[BLANK], I had made a new friend.",
+        "By the end of the day",
+        "PP"
+      ]
+    ],
+    "I’m glad that I had heeded my mother’s advice.": []
+  },
+  "7": {
+    "Simba, the Lion King, fought with an elephant and was injured.": [
+      [
+        "Simba, the Lion King, fought [BLANK] and was injured.",
+        "with an elephant",
+        "PP"
+      ]
+    ],
+    "His faithful follower, Fox, was always beside him.": [
+      [
+        "His faithful follower, Fox, was [BLANK] beside him.",
+        "always",
+        "ADV"
+      ],
+      [
+        "His faithful follower, Fox, was always [BLANK].",
+        "beside him",
+        "PP"
+      ]
+    ],
+    "Simba had always given the leftovers of his hunt to Fox.": [
+      [
+        "Simba had [BLANK] given the leftovers of his hunt to Fox.",
+        "always",
+        "ADV"
+      ],
+      [
+        "Simba had always given the leftovers [BLANK] to Fox.",
+        "of his hunt",
+        "PP"
+      ],
+      [
+        "Simba had always given the leftovers of his hunt [BLANK].",
+        "to Fox",
+        "PP"
+      ]
+    ],
+    "Since Simba was unable to hunt, Fox had to remain hungry.": [],
+    "Fox asked Simba to do something about it.": [
+      [
+        "Fox asked Simba to do something [BLANK].",
+        "about it",
+        "PP"
+      ]
+    ],
+    "Simba said, “Bring me a suitable animal which I can hunt even in my feeble state.” Fox set out for the nearby village where he met a donkey.": [
+      [
+        "Simba said, “Bring me a suitable animal which I can hunt [BLANK] in my feeble state.” Fox set out for the nearby village where he met a donkey.",
+        "even",
+        "ADV"
+      ],
+      [
+        "Simba said, “Bring me a suitable animal which I can hunt [BLANK].” Fox set out for the nearby village where he met a donkey.",
+        "even in my feeble state",
+        "PP"
+      ],
+      [
+        "Simba said, “Bring me a suitable animal which I can hunt even in my feeble state.” Fox set out [BLANK].",
+        "for the nearby village where he met a donkey",
+        "PP"
+      ]
+    ],
+    "“Hello friend, you are looking skinny,” said Fox.": [],
+    "“Are you not well?” “Yes, friend,” replied the donkey, “my master gives me little food.” “Come with me!": [
+      [
+        "“Are you [BLANK] well?” “Yes, friend,” replied the donkey, “my master gives me little food.” “Come with me!",
+        "not",
+        "ADV"
+      ],
+      [
+        "“Are you not well?” “Yes, friend,” replied the donkey, “my master gives me little food.” “Come [BLANK]!",
+        "with me",
+        "PP"
+      ]
+    ],
+    "Our king is very kind and will feed you,” Fox said.": [
+      [
+        "Our king is [BLANK] kind and will feed you,” Fox said.",
+        "very",
+        "ADV"
+      ]
+    ],
+    "Happily, the donkey followed Fox with dreams of green grass.": [
+      [
+        "[BLANK], the donkey followed Fox with dreams of green grass.",
+        "Happily",
+        "ADV"
+      ],
+      [
+        "Happily, the donkey followed Fox [BLANK].",
+        "with dreams of green grass",
+        "PP"
+      ]
+    ],
+    "When Simba saw the donkey coming, he could not control himself and tried to jump upon the donkey.": [
+      [
+        "When Simba saw the donkey coming, he could [BLANK] control himself and tried to jump upon the donkey.",
+        "not",
+        "ADV"
+      ],
+      [
+        "When Simba saw the donkey coming, he could not control himself and tried to jump [BLANK].",
+        "upon the donkey",
+        "PP"
+      ]
+    ],
+    "Unluckily, he missed the donkey and it ran away.": [
+      [
+        "[BLANK], he missed the donkey and it ran away.",
+        "Unluckily",
+        "ADV"
+      ],
+      [
+        "Unluckily, he missed the donkey and it ran [BLANK].",
+        "away",
+        "ADV"
+      ]
+    ],
+    "They had lost a prey.": [],
+    "Simba asked Fox not to give up, but to try again.": [
+      [
+        "Simba asked Fox [BLANK] to give up, but to try again.",
+        "not",
+        "ADV"
+      ],
+      [
+        "Simba asked Fox not to give up, but to try [BLANK].",
+        "again",
+        "ADV"
+      ]
+    ],
+    "Fox went to a pond and found the donkey there.": [
+      [
+        "Fox went to a pond and found the donkey [BLANK].",
+        "there",
+        "ADV"
+      ],
+      [
+        "Fox went [BLANK] and found the donkey there.",
+        "to a pond",
+        "PP"
+      ]
+    ],
+    "“Friend, why did you run away?": [
+      [
+        "“Friend, why did you run [BLANK]?",
+        "away",
+        "ADV"
+      ]
+    ],
+    "The lion king was so happy to see you that he jumped up to welcome you.” The donkey was fooled again and accompanied Fox to see the lion in his cave.": [
+      [
+        "The lion king was [BLANK] happy to see you that he jumped up to welcome you.” The donkey was fooled again and accompanied Fox to see the lion in his cave.",
+        "so",
+        "ADV"
+      ],
+      [
+        "The lion king was so happy to see you that he jumped up to welcome you.” The donkey was fooled [BLANK] and accompanied Fox to see the lion in his cave.",
+        "again",
+        "ADV"
+      ],
+      [
+        "The lion king was so happy to see you that he jumped up to welcome you.” The donkey was fooled again and accompanied Fox to see the lion [BLANK].",
+        "in his cave",
+        "PP"
+      ]
+    ],
+    "This time Simba was very careful and killed the foolish donkey immediately.": [
+      [
+        "This time Simba was [BLANK] careful and killed the foolish donkey immediately.",
+        "very",
+        "ADV"
+      ],
+      [
+        "This time Simba was very careful and killed the foolish donkey [BLANK].",
+        "immediately",
+        "ADV"
+      ]
+    ]
+  },
+  "8": {
+    "Sam and Tom were twins.": [],
+    "Though they looked similar, they differed in personality.": [
+      [
+        "Though they looked similar, they differed [BLANK].",
+        "in personality",
+        "PP"
+      ]
+    ],
+    "While Sam was generous and selfless, Tom was greedy and selfish!": [],
+    "As the twins grew up, their father wanted to share his fortune equally between them.": [
+      [
+        "As the twins grew up, their father wanted to share his fortune [BLANK].",
+        "equally between them",
+        "ADV"
+      ],
+      [
+        "As the twins grew up, their father wanted to share his fortune equally [BLANK].",
+        "between them",
+        "PP"
+      ]
+    ],
+    "However, Tom disagreed and argued that whoever proved to be more intelligent and strong should get a bigger share of the wealth.": [
+      [
+        "[BLANK], Tom disagreed and argued that whoever proved to be more intelligent and strong should get a bigger share of the wealth.",
+        "However",
+        "ADV"
+      ],
+      [
+        "However, Tom disagreed and argued that whoever proved to be more intelligent and strong should get a bigger share [BLANK].",
+        "of the wealth",
+        "PP"
+      ]
+    ],
+    "Their father decided to hold a competition.": [],
+    "He asked the twins to walk for as long as they could, and return home before sunset.": [
+      [
+        "He [BLANK]ked the twins to walk for [BLANK] long [BLANK] they could, and return home before sunset.",
+        "as",
+        "ADV"
+      ],
+      [
+        "He asked the twins to walk for as [BLANK] as they could, and return home before sunset.",
+        "long",
+        "ADV"
+      ],
+      [
+        "He asked the twins to walk for as long as they could, and return [BLANK] before sunset.",
+        "home",
+        "ADV"
+      ],
+      [
+        "He asked the twins to walk [BLANK], and return home before sunset.",
+        "for as long as they could",
+        "PP"
+      ],
+      [
+        "He asked the twins to walk for as long as they could, and return home [BLANK].",
+        "before sunset",
+        "PP"
+      ]
+    ],
+    "The wealth would be divided in proportion to the distance covered.": [
+      [
+        "The wealth would be divided [BLANK].",
+        "in proportion to the distance covered",
+        "PP"
+      ]
+    ],
+    "As a rule of the competition, they were not permitted to carry a watch to keep track of the time.": [
+      [
+        "As a rule of the competition, they were [BLANK] permitted to carry a watch to keep track of the time.",
+        "not",
+        "ADV"
+      ],
+      [
+        "[BLANK], they were not permitted to carry a watch to keep track of the time.",
+        "As a rule of the competition",
+        "PP"
+      ],
+      [
+        "As a rule of the competition, they were not permitted to carry a watch to keep track [BLANK].",
+        "of the time",
+        "PP"
+      ]
+    ],
+    "On the day of competition, Sam walked slowly and steadily, while Tom sprinted as he wanted to win the race.": [
+      [
+        "On the day of competition, Sam walked [BLANK], while Tom sprinted as he wanted to win the race.",
+        "slowly and steadily",
+        "ADV"
+      ],
+      [
+        "[BLANK], Sam walked slowly and steadily, while Tom sprinted as he wanted to win the race.",
+        "On the day of competition",
+        "PP"
+      ]
+    ],
+    "Sam planned to walk as far as possible till noon and start for home thereafter, as it would take the same amount of time to walk back home.": [
+      [
+        "Sam planned to walk [BLANK] till noon and start for home thereafter, as it would take the same amount of time to walk back home.",
+        "as far as possible",
+        "ADV"
+      ],
+      [
+        "Sam planned to walk as far as possible till noon and start for home [BLANK], as it would take the same amount of time to walk back home.",
+        "thereafter",
+        "ADV"
+      ],
+      [
+        "Sam planned to walk as far as possible till noon and start for home thereafter, as it would take the same amount of time to walk [BLANK].",
+        "back home",
+        "ADV"
+      ],
+      [
+        "Sam planned to walk as far [BLANK] till noon and start for home thereafter, as it would take the same amount of time to walk back home.",
+        "as possible",
+        "PP"
+      ],
+      [
+        "Sam planned to walk as far as possible [BLANK] and start for home thereafter, as it would take the same amount of time to walk back home.",
+        "till noon",
+        "PP"
+      ],
+      [
+        "Sam planned to walk as far as possible till noon and start [BLANK] thereafter, as it would take the same amount of time to walk back home.",
+        "for home",
+        "PP"
+      ],
+      [
+        "Sam planned to walk as far as possible till noon and start for home thereafter, as it would take the same amount [BLANK] to walk back home.",
+        "of time",
+        "PP"
+      ]
+    ],
+    "However, Tom did not attempt to return home even after noon.": [
+      [
+        "[BLANK], Tom did not attempt to return home even after noon.",
+        "However",
+        "ADV"
+      ],
+      [
+        "However, Tom did [BLANK] attempt to return home even after noon.",
+        "not",
+        "ADV"
+      ],
+      [
+        "However, Tom did not attempt to return [BLANK] even after noon.",
+        "home",
+        "ADV"
+      ],
+      [
+        "However, Tom did not attempt to return home [BLANK] after noon.",
+        "even",
+        "ADV"
+      ],
+      [
+        "However, Tom did not attempt to return home [BLANK].",
+        "even after noon",
+        "PP"
+      ]
+    ],
+    "Tom walked twice as long as Sam so as to get more wealth.": [
+      [
+        "Tom walked [BLANK] so as to get more wealth.",
+        "twice as long as Sam",
+        "ADV"
+      ],
+      [
+        "Tom walked twice as long [BLANK] so as to get more wealth.",
+        "as Sam",
+        "PP"
+      ],
+      [
+        "Tom walked twice as long as Sam [BLANK].",
+        "so as to get more wealth",
+        "PP"
+      ]
+    ],
+    "He hurried back only when the sun turned orange.": [
+      [
+        "He hurried back [BLANK] when the sun turned orange.",
+        "only",
+        "ADV"
+      ]
+    ],
+    "Slowly, darkness engulfed his path and he had to drag his feet home.": [
+      [
+        "[BLANK], darkness engulfed his path and he had to drag his feet home.",
+        "Slowly",
+        "ADV"
+      ],
+      [
+        "Slowly, darkness engulfed his path and he had to drag his feet [BLANK].",
+        "home",
+        "ADV"
+      ]
+    ],
+    "He had lost the race because of his greed.": [
+      [
+        "He had lost the race [BLANK].",
+        "because of his greed",
+        "PP"
+      ]
+    ]
+  },
+  "9": {
+    "Whales are unique creatures.": [],
+    "Although they look like fish and live in the sea, unlike fish, they are warm-blooded mammals.": [
+      [
+        "Although they look [BLANK] and live in the sea, un[BLANK], they are warm-blooded mammals.",
+        "like fish",
+        "PP"
+      ],
+      [
+        "Although they look like fish and live [BLANK], unlike fish, they are warm-blooded mammals.",
+        "in the sea",
+        "PP"
+      ],
+      [
+        "Although they look like fish and live in the sea, [BLANK], they are warm-blooded mammals.",
+        "unlike fish",
+        "PP"
+      ]
+    ],
+    "They breathe through their lungs.": [
+      [
+        "They breathe [BLANK].",
+        "through their lungs",
+        "PP"
+      ]
+    ],
+    "They sense their surrounding environment through echolocation like dolphins and bats.": [
+      [
+        "They sense their surrounding environment [BLANK].",
+        "through echolocation like dolphins and bats",
+        "PP"
+      ]
+    ],
+    "Whales have flippers which they use to guide themselves while swimming.": [],
+    "They propel themselves along with the help of their two-finned tails.": [
+      [
+        "They propel themselves along with the help of their two-finned tails.",
+        "with the help of their two - finned tails",
+        "PP"
+      ]
+    ],
+    "They also use their flippers to slap hard against the water before lunging itself out of the water to warn others of approaching threat.": [
+      [
+        "They [BLANK] use their flippers to slap hard against the water before lunging itself out of the water to warn others of approaching threat.",
+        "also",
+        "ADV"
+      ],
+      [
+        "They also use their flippers to slap [BLANK] against the water before lunging itself out of the water to warn others of approaching threat.",
+        "hard",
+        "ADV"
+      ],
+      [
+        "They also use their flippers to slap hard [BLANK] before lunging itself out of the water to warn others of approaching threat.",
+        "against the water",
+        "PP"
+      ],
+      [
+        "They also use their flippers to slap hard against the water [BLANK].",
+        "before lunging itself out of the water to warn others of approaching threat",
+        "PP"
+      ]
+    ],
+    "Whales can dive to great depths, holding their breaths for a long period of time.": [
+      [
+        "Whales can dive [BLANK], holding their breaths for a long period of time.",
+        "to great depths",
+        "PP"
+      ],
+      [
+        "Whales can dive to great depths, holding their breaths [BLANK].",
+        "for a long period of time",
+        "PP"
+      ]
+    ],
+    "They breathe in air through their blowholes instead of their mouths when they surface, and their breaths form a cloudy ‘spout’.": [
+      [
+        "They breathe in air through their blowholes [BLANK] of their mouths when they surface, and their breaths form a cloudy ‘spout’.",
+        "instead",
+        "ADV"
+      ],
+      [
+        "They breathe [BLANK] through their blowholes instead of their mouths when they surface, and their breaths form a cloudy ‘spout’.",
+        "in air",
+        "PP"
+      ],
+      [
+        "They breathe in air [BLANK] when they surface, and their breaths form a cloudy ‘spout’.",
+        "through their blowholes instead of their mouths",
+        "PP"
+      ]
+    ],
+    "Among the two kinds of whales, the toothed whales have teeth and they feed on all kinds of fish, plankton and crustaceans.": [
+      [
+        "[BLANK], the toothed whales have teeth and they feed on all kinds of fish, plankton and crustaceans.",
+        "Among the two kinds of whales",
+        "PP"
+      ],
+      [
+        "Among the two kinds of whales, the toothed whales have teeth and they feed on all kinds of fish, plankton and crustaceans.",
+        "on all kinds of fish , plankton and crustaceans",
+        "PP"
+      ]
+    ],
+    "Toothed whales include the sperm whale.": [],
+    "Meanwhile the wholebone or better known as baleen whales have a huge sieve-like structure hanging from the roof of their mouths instead of teeth.": [
+      [
+        "[BLANK] the wholebone or better known as baleen whales have a huge sieve-like structure hanging from the roof of their mouths instead of teeth.",
+        "Meanwhile",
+        "ADV"
+      ],
+      [
+        "Meanwhile the wholebone or [BLANK] known as baleen whales have a huge sieve-like structure hanging from the roof of their mouths instead of teeth.",
+        "better",
+        "ADV"
+      ],
+      [
+        "Meanwhile the wholebone or better known as baleen whales have a huge sieve-like structure hanging from the roof of their mouths [BLANK].",
+        "instead of teeth",
+        "ADV"
+      ],
+      [
+        "Meanwhile the wholebone or better known [BLANK] have a huge sieve-like structure hanging from the roof of their mouths instead of teeth.",
+        "as baleen whales",
+        "PP"
+      ],
+      [
+        "Meanwhile the wholebone or better known as baleen whales have a huge sieve-[BLANK].",
+        "like structure hanging from the roof of their mouths instead of teeth",
+        "PP"
+      ]
+    ],
+    "This filters the tiny plants and animals from the water passing through the whale’s mouth.": [
+      [
+        "This filters the tiny plants and animals from the water passing through the whale’s mouth.",
+        "from the water passing through the whale ’s mouth",
+        "PP"
+      ]
+    ],
+    "Wholebone whales include the biggest mammal – the blue whale.": [],
+    "Many whales migrate by swimming long distances from their cold-water feeding grounds to warm-water breeding grounds every year.": [
+      [
+        "Many whales migrate by swimming long distances from their cold-water feeding grounds to warm-water breeding grounds every year.",
+        "from their cold - water feeding grounds to warm - water breeding grounds",
+        "PP"
+      ]
+    ],
+    "Unlike toothed whales, the baleen whale can travel alone on their annual migrations.": [
+      [
+        "Unlike toothed whales, the baleen whale can travel [BLANK] on their annual migrations.",
+        "alone",
+        "ADV"
+      ],
+      [
+        "[BLANK], the baleen whale can travel alone on their annual migrations.",
+        "Unlike toothed whales",
+        "PP"
+      ],
+      [
+        "Unlike toothed whales, the baleen whale can travel alone [BLANK].",
+        "on their annual migrations",
+        "PP"
+      ]
+    ]
+  }
+}

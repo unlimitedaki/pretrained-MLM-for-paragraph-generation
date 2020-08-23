@@ -1,3 +1,0 @@
-I have a dog, my [MASK] is cute.
-My dog is [MASK].
-My dog is [MASK], my dog is cute.
