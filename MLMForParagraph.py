@@ -84,10 +84,10 @@ class MLMForParagraph(nn.Module):
         topk_scores,topk_index = torch.topk(all_scores,k = self.k,largest = False)
         cand_tokens = []
         for i,index in enumerate(topk_index):
-            tokens = [all_index[i*all_scores.shape[-1]+j] for j in index]
+            tokens = [all_index[i*all_scores.shape[-1]+j].cpu().detach().numpy().tolist() for j in index]
             cand_tokens.append(tokens)
-        pdb.set_trace()
-        return topk_scores, cand_tokens
+        # pdb.set_trace()
+        return topk_scores.cpu().detach().numpy().tolist(), cand_tokens
         
             # pdb.set_trace()
         # input_ids = self.tokenizer(input_sentence,return_tensors="pt")["input_ids"].cuda()
@@ -151,15 +151,16 @@ def preprocess(args,tokenizer,masked_data):
         padding="max_length"
         )["input_ids"] for data in masked_data
     ])
-    others = [data[1:] for data in masked_data]
+    # others = [data[1:] for data in masked_data]
     # others = [data[1:] for data in masked_data]
     dataset = TensorDataset(input_ids)
     sampler = SequentialSampler(dataset)
     dataloader= DataLoader(dataset, sampler=sampler, batch_size=args.batch_size)
-    return dataloader,others
+    return dataloader
 
 
 def gen_paragraph(args):
+    source_data = split_data(args.source_file)
     if os.path.exists("masked_data.json"):
         logger.info("load cached masked data from masked_data.json")
         with open("masked_data.json",'r',encoding='utf8') as f:
@@ -171,23 +172,49 @@ def gen_paragraph(args):
                 analyze_result = json.load(f)
         else:
             logger.info("analyze sentence from {}".format(args.source_file))
-            data = split_data(args.source_file)
-            analyze_result = pos_analyze(data)
+            
+            analyze_result = pos_analyze(source_data)
         masked_data = mask_sentence(args,analyze_result)
 
+    result_file = open(args.result_file,'w',encoding = 'utf8')
     
     # model.cuda()
 
     tokenizer = load_tokenizer(args.model_name)
     
-    dataloader,others = preprocess(args,tokenizer,masked_data)
+    dataloader = preprocess(args,tokenizer,masked_data)
     model = MLMForParagraph(args.model_name,k=args.topk)
     model.cuda()
     model.eval()
+    num_examples = 0
+    last_passage_id = -1
+    last_sentence_id = -1
     for step,batch in tqdm(enumerate(dataloader)):
         input_ids = batch[0].cuda()
-        predictions = model(input_ids)
-
+        scores,cand_tokens = model(input_ids)
+        last_sentence_id = -1
+        for i in range(len(cand_tokens)):
+            origin_data = masked_data[num_examples*args.mask_range]
+            masked_part = origin_data[1]
+            masked_sentence = origin_data[0]
+            origin_sentence = masked_sentence.replace("[MASK]",masked_part)
+            pos_label = origin_data[5]
+            context_label = origin_data[6]
+            passage_id = int(origin_data[3])
+            sentence_id = origin_data[4]
+            if passage_id != last_passage_id:
+                result_file.write("Passage {}:\n".format(str(passage_id)))
+                last_passage_id = passage_id
+            if sentence_id != last_sentence_id:
+                result_file.write("[{}] {}\n".format(str(sentence_id),source_data[passage_id][sentence_id]))
+                last_sentence_id = sentence_id
+            for j in range(len(cand_tokens[i])):
+                prediction_tokens = tokenizer.convert_ids_to_tokens(cand_tokens[i][j])
+                statement = masked_sentence.replace("[MASK]"," ".join(prediction_tokens))
+                result_file.write("[{}][{}] [{}] {} [{}]\n".format(pos_label,context_label,masked_part,statement,str(scores[i][j])))
+            
+                
+            num_examples += 1
 
     # for input_sentence in tqdm(masked_data):
     #     predictions = model(input_sentence)
