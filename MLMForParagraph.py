@@ -32,54 +32,63 @@ def load_tokenizer(model_name):
         return RobertaTokenizer.from_pretrained(model_name)
 
 class MLMForParagraph(nn.Module):
-    def __init__(self,model_name,k=5):
+    def __init__(self,model_name,k=3,beam_nums = 3,mask_range = 5):
         super().__init__()
         self.pretraindModel = load_pretrained_model(model_name)
         self.tokenizer = load_tokenizer(model_name)
         self.k = k
+        self.beam_nums = beam_nums
+        self.mask_range =mask_range
     
     def beam_search(self,scores,beam_nums,max_length):
         beam_list = []
         position = 0
-        # prev_index = None
         while(position<max_length):
             topk_scores,topk_index = torch.topk(scores[position],beam_nums) #(1,beam_nums)
             if position == 0:
                 prev_scores = topk_scores
                 prev_index = topk_index.view(beam_nums,1)
-                # cand_list = [(topk_scores[i].item(),[prev_index[i].item()]) for i in range(beam_nums)]
             else:
                 cand_scores = torch.matmul(prev_scores.view(beam_nums,-1),topk_scores.view(-1,beam_nums)).view(-1,beam_nums*beam_nums)
                 
                 topk_cand_scores,topk_cand_index = torch.topk(cand_scores,beam_nums)
-                pdb.set_trace()
                 first_index = (topk_cand_index//beam_nums).view(beam_nums,-1)
                 cur_index = (topk_cand_index%beam_nums).view(beam_nums,-1)
                 first_index = first_index.expand(beam_nums,prev_index.shape[-1])
-                # cur_index = cur_index.expand(beam_num,)
                 first_index = prev_index.gather(0,first_index)
                 cur_index = topk_index.view(beam_nums,-1).gather(0,cur_index)
-
-                # first_index = torch.tensor([prev_index[int(i//beam_nums)] for i in topk_cand_index],dtype = torch.int64,device=self.device)
-                # cur_index = torch.tensor([topk_index[int(i%beam_nums)] for i in topk_cand_index],dtype = torch.int64,device=self.device)
                 prev_index = torch.cat((first_index,cur_index),dim=1)
                 prev_scores = topk_cand_scores
             position += 1
-        return prev_scores,prev_index
+        return torch.pow(prev_scores.view(-1,beam_nums),-1/float(max_length)),prev_index
             
 
     def forward(self,input_ids):
+        batch_size = input_ids.shape[0]
         outputs  = self.pretraindModel(input_ids)[0]
         outputs = F.softmax(outputs,dim=-1)
         # masked_indexs  = torch.nonzero(input_ids == 103,as_tuple=None)
+        all_scores = []
+        all_index = []
         for i,input_id in enumerate(input_ids):
             masked_index  = torch.nonzero(input_id==103)
             # pdb.set_trace()
             reshaped_masked_index = masked_index.expand(masked_index.shape[0],outputs.shape[-1])
             masked_logits = outputs[i].gather(0,reshaped_masked_index)
-            beam_scores,beam_index = self.beam_search(masked_logits,3,masked_index.shape[0])
-            pdb.set_trace()
-            
+            beam_scores,beam_index = self.beam_search(masked_logits,self.beam_nums,masked_index.shape[0])
+            for index in beam_index:
+                all_index.append(index)
+            all_scores.append(beam_scores)
+        
+        all_scores = torch.cat(all_scores,dim = -1).view(-1,self.beam_nums*self.mask_range)
+        topk_scores,topk_index = torch.topk(all_scores,k = self.k,largest = False)
+        cand_tokens = []
+        for i,index in enumerate(topk_index):
+            tokens = [all_index[i*all_scores.shape[-1]+j] for j in index]
+            cand_tokens.append(tokens)
+        pdb.set_trace()
+        return topk_scores, cand_tokens
+        
             # pdb.set_trace()
         # input_ids = self.tokenizer(input_sentence,return_tensors="pt")["input_ids"].cuda()
         # # pdb.set_trace()
@@ -173,9 +182,10 @@ def gen_paragraph(args):
     
     dataloader,others = preprocess(args,tokenizer,masked_data)
     model = MLMForParagraph(args.model_name,k=args.topk)
+    model.cuda()
     model.eval()
     for step,batch in tqdm(enumerate(dataloader)):
-        input_ids = batch[0]
+        input_ids = batch[0].cuda()
         predictions = model(input_ids)
 
 
