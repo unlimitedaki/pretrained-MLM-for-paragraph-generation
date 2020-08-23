@@ -119,7 +119,7 @@ def mask_sentence(args,data):
                 C_masked_data = []
                 if "[BLANK]" not in item[0]:
                     continue
-                for i in range(1,args.mask_range):
+                for i in range(1,args.mask_range+1):
                     mask_tokens = " ".join(["[MASK]"]*i)
                     # pdb.set_trace()
                     statement = item[0].replace("[BLANK]",mask_tokens)
