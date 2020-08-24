@@ -161,19 +161,20 @@ def preprocess(args,tokenizer,masked_data):
 
 def gen_paragraph(args):
     source_data = split_data(args.source_file)
-    if os.path.exists("masked_data.json"):
+    if (not args.overwrite_cache) and os.path.exists("masked_data.json"):
         logger.info("load cached masked data from masked_data.json")
         with open("masked_data.json",'r',encoding='utf8') as f:
             masked_data = json.load(f)
     else:
-        if os.path.exists("sentences_with_blank.json"):
+        if (not args.overwrite_cache) and os.path.exists("sentences_with_blank.json"):
             logger.info("loading cached sentence from sentences_with_blank.json")
             with open("sentences_with_blank.json",'r',encoding = 'utf8') as f:
                 analyze_result = json.load(f)
         else:
-            logger.info("analyze sentence from {}".format(args.source_file))
+            logger.info("analyzing sentence from {}".format(args.source_file))
             
             analyze_result = pos_analyze(source_data)
+        logger.info("masking sentence")
         masked_data = mask_sentence(args,analyze_result)
 
     result_file = open(args.result_file,'w',encoding = 'utf8')
@@ -189,7 +190,9 @@ def gen_paragraph(args):
     num_examples = 0
     last_passage_id = -1
     last_sentence_id = -1
-    for step,batch in tqdm(enumerate(dataloader)):
+    result_data = {}
+    logger.info("generating paragraph")
+    for step,batch in tqdm(enumerate(dataloader),total=len(dataloader)):
         input_ids = batch[0].cuda()
         scores,cand_tokens = model(input_ids)
         last_sentence_id = -1
@@ -204,41 +207,56 @@ def gen_paragraph(args):
             sentence_id = origin_data[4]
             if passage_id != last_passage_id:
                 result_file.write("Passage {}:\n".format(str(passage_id)))
+                result_data[passage_id] = {}
                 last_passage_id = passage_id
             if sentence_id != last_sentence_id:
                 result_file.write("[{}] {}\n".format(str(sentence_id),source_data[passage_id][sentence_id]))
+                result_data[passage_id][sentence_id] = []
                 last_sentence_id = sentence_id
             for j in range(len(cand_tokens[i])):
                 prediction_tokens = tokenizer.convert_ids_to_tokens(cand_tokens[i][j])
                 statement = masked_sentence.replace("[MASK]"," ".join(prediction_tokens))
                 result_file.write("[{}][{}] [{}] {} [{}]\n".format(pos_label,context_label,masked_part,statement,str(scores[i][j])))
-            
-                
+                result_data[passage_id][sentence_id].append({"pos_label":pos_label,"context_label":context_label,"masked_words":masked_part,'statement':statement,'score':scores[i][j]})    
             num_examples += 1
+    return result_data
 
-    # for input_sentence in tqdm(masked_data):
-    #     predictions = model(input_sentence)
-    #     result[input_sentence] = predictions
-    # with open(args.result_file,'w',encoding='utf8') as f:
-    #     json.dump(result,f,indent=2,ensure_ascii=False)
+def mlm_paragraph(
+    source_file,
+    result_file,
+    topk = 3,
+    mask_range = 5,
+    batch_size = 10,
+    overwrite_cache = True
+):
+    args.source_file = source_file
+    args.result_file = result_file
+    args.topk = topk
+    args.mask_range = mask_range
+    args.batch_size = batch_size
+    args.overwrite_cache = overwrite_cache
+    return gen_paragraph(args)
 
 logging.basicConfig(format = '%(asctime)s - %(levelname)s - %(name)s -   %(message)s',
                     datefmt = '%m/%d/%Y %H:%M:%S',
                     level = logging.INFO)
 logger = logging.getLogger(__name__)
 
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
-    parser.add_argument('--model_name',type=str,default="bert-base-uncased")
-    parser.add_argument('--source_file',type=str)
-    parser.add_argument('--result_file',type=str)
-    parser.add_argument('--topk',type = int,default=3)
-    parser.add_argument('--batch_size',type = int,default = 10)
-    parser.add_argument('--mask_range',type = int, default=5)
-    parser.add_argument('--max_seq_length',type = int, default=120)
-
+parser = argparse.ArgumentParser()
+parser.add_argument('--model_name',type=str,default="bert-base-uncased")
+parser.add_argument('--source_file',type=str,default = "CompreOE-passage.txt")
+parser.add_argument('--result_file',type=str,default = 'result.txt')
+parser.add_argument('--topk',type = int,default=3)
+parser.add_argument('--batch_size',type = int,default = 10)
+parser.add_argument('--mask_range',type = int, default=5)
+parser.add_argument('--max_seq_length',type = int, default=120)
+parser.add_argument('--overwrite_cache',type = bool,default= False)
+try:
     args = parser.parse_args()
+except:
+    args = parser.parse_args(args = [])
 
+if __name__ == "__main__":
     gen_paragraph(args)
 
             

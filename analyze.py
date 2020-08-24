@@ -59,7 +59,7 @@ def simplify(doc,pos_predictor):
     delete_list = []
     traverse(pos["hierplane_tree"]["root"], delete_list)
     judgement(pos["hierplane_tree"]["root"], delete_list)
-    print(doc,delete_list)
+    # print(doc,delete_list)
 
     for st in delete_list:
         doc = doc.replace(st, "")
@@ -68,7 +68,7 @@ def simplify(doc,pos_predictor):
     if len(doc_list)==3:
         doc = doc_list[0] + " , " + doc_list[1]
     # s.2 删除两个逗号之间的部分
-    print(doc)
+    # print(doc)
     return doc
 
 
