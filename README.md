@@ -2,57 +2,46 @@
 
 ## 环境配置
 
+allnnlp-models需要最后一个安装
+
 ```shell
 pip install transformers==3.0.2
+pip install allennlp
+pip install --pre allennlp-models
 ```
 
-## 运行
+## 接口函数：
+
+```python
+def mlm_paragraph(
+    source_file,
+    result_file,
+    topk = 3,
+    mask_range = 5, # mask数量范围
+    batch_size = 10, # 需要取mask_range的倍数
+    overwrite_cache = True #覆盖中间文件(blank_selection,mask结果)
+)
+文本格式的结果会被写入result_file，同时也返回一个json格式的结果
+{
+  "0": { #文档编号
+    "0": [ # 句子编号
+      { #复述句
+        "pos_label": "PP", # blank 类型
+        "context_label": "PN", # 上下文类型
+        "masked_words": "in the United States of America",
+        "statement": "Yellowstone National Park is nearby.It became the first National Park in 1872.",
+        "score": 1.3861298561096191 # 分数采用困惑度，越小越好
+      }]}}
+```
+
+## 直接运行
 
 ```shell
-python MLMForParagraph.py --source_file "examples.txt" \
-    --result_file "result.json" \
-    --topk 5 \
-    --model_name "bert-base-uncased" \
-```
-
-source_file 为数据文件
-
-result_file 为预测结果，为json格式
-
-topk 取mask位置的前k个预测结果
-
-model_name 预训练模型，现在仅支持BERT
-
-## 数据文件格式
-
-```
-I have a dog, my [MASK] is cute.
-My dog is [MASK].
-My dog is [MASK], my dog is cute.
-```
-
-## 结果文件格式
-
-```json
-{
-  "I have a dog, my [MASK] is cute.\n": {
-    "7": {
-      "words": [
-        "dad",
-        "mom",
-        "husband",
-        "cat",
-        "boyfriend"
-      ],
-      "scores": [
-        9.344655990600586,
-        9.24299430847168,
-        8.592103958129883,
-        8.381598472595215,
-        8.314824104309082
-      ]
-    }
-}
+!python MLMForParagraph.py \
+    --source_file "CompreOE-passage.txt" \
+    --result_file "result.txt" \
+    --topk 3 \
+    --mask_range 5 \
 ```
 
 
