@@ -198,27 +198,33 @@ def gen_paragraph(args):
         last_sentence_id = -1
         for i in range(len(cand_tokens)):
             origin_data = masked_data[num_examples*args.mask_range]
+
             masked_part = origin_data[1]
             masked_sentence = origin_data[0]
-            origin_sentence = masked_sentence.replace("[MASK]",masked_part)
+            # origin_sentence = masked_sentence.replace("[MASK]",masked_part)
             pos_label = origin_data[5]
             context_label = origin_data[6]
             passage_id = int(origin_data[3])
             sentence_id = origin_data[4]
+            origin_sentence = source_data[passage_id][sentence_id]
             if passage_id != last_passage_id:
                 result_file.write("Passage {}:\n".format(str(passage_id)))
                 result_data[passage_id] = {}
                 last_passage_id = passage_id
             if sentence_id != last_sentence_id:
                 result_file.write("[{}] {}\n".format(str(sentence_id),source_data[passage_id][sentence_id]))
-                result_data[passage_id][sentence_id] = []
+                result_data[passage_id][sentence_id] = {}
+                result_data[passage_id][sentence_id]["statements"] = []
+                result_data[passage_id][sentence_id]['raw'] = origin_sentence
                 last_sentence_id = sentence_id
             for j in range(len(cand_tokens[i])):
                 prediction_tokens = tokenizer.convert_ids_to_tokens(cand_tokens[i][j])
-                statement = masked_sentence.replace("[MASK]"," ".join(prediction_tokens))
+                statement = origin_sentence.replace(masked_part," ".join(prediction_tokens))
                 result_file.write("[{}][{}] [{}] {} [{}]\n".format(pos_label,context_label,masked_part,statement,str(scores[i][j])))
-                result_data[passage_id][sentence_id].append({"pos_label":pos_label,"context_label":context_label,"masked_words":masked_part,'statement':statement,'score':scores[i][j]})    
+                result_data[passage_id][sentence_id]["statements"].append({"pos_label":pos_label,"context_label":context_label,"masked_words":masked_part,'statement':statement,'score':scores[i][j]})    
             num_examples += 1
+    with open("mlm_result.json",'w',encoding='utf8') as f:
+        json.dump(result_data,f,indent = 4,ensure_ascii=False)
     return result_data
 
 def mlm_paragraph(
